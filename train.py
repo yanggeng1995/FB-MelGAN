@@ -107,6 +107,7 @@ def train(args):
                                d_optimizer, args.resume, args.use_cuda, logging)
         global_step = restore_step
 
+    global_step = 100000
     customer_g_optimizer = Optimizer(g_optimizer, args.g_learning_rate,
                 global_step, args.warmup_steps, args.decay_learning_rate)
     customer_d_optimizer = Optimizer(d_optimizer, args.d_learning_rate,
