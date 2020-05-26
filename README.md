@@ -1,4 +1,4 @@
-# GAN-TTS
+# FB-MelGAN
 A pytorch implementation of the FB-MelGAN(https://arxiv.org/pdf/2005.05106.pdf)
 
 ## Prepare dataset
